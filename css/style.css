@@ -10827,7 +10827,7 @@ h5,
 }
 .ftco-navbar-light .navbar-toggler {
   border: none;
-  color: rgba(0, 0, 0, 0.5) !important;
+  color: rgba(255, 255, 255, 0.5) !important;
   cursor: pointer;
   padding-right: 0;
   text-transform: uppercase;
