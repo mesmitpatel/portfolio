@@ -12291,8 +12291,8 @@ h5,
   right: 0;
   bottom: 0;
   content: "";
-  border-radius: 0px 60px 0px 0px;
-  background: #E4ECF5;
+  border-radius: 0px 60px 0px 60px;
+  background-image: linear-gradient(to bottom, #dfe9f3 0%, white 100%);
   z-index: -1;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
