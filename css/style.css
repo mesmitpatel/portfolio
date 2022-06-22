@@ -12962,9 +12962,13 @@ h5,
 }
 
 
+.project-text{
+  color: #000;
+}
 
 .project .overlay {
   position: absolute;
+  color: #000;
   overflow: hidden;
   top: 0;
   left: 0;
@@ -12972,7 +12976,7 @@ h5,
   bottom: 0;
   content: "";
   opacity: 0;
-  background: #0066ff;
+  background: #fff;
   z-index: -1;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
@@ -12982,8 +12986,9 @@ h5,
 }
 
 @media (max-width: 767.98px) {
+
   .project .overlay {
-    opacity: 0.8;
+    opacity: 0.86;
     overflow: hidden;
   }
   .project .overlay {
@@ -13013,11 +13018,15 @@ h5,
 }
 
 .project .text h3 a {
-  color: #fff;
+  color: #000;
+}
+
+.project .text h3 a:hover {
+  color: #0066ff;
 }
 
 .project .text span {
-  color: rgba(255, 255, 255, 0.8);
+  color: #323232;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 12px;
@@ -13030,7 +13039,7 @@ h5,
   }
 
   .project .text span {
-    color: rgba(255, 255, 255, 0.8);
+    color: #323232;
   }
 }
 
