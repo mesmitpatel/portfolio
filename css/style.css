@@ -5670,6 +5670,10 @@ input[type="button"].btn-block {
   color: #6c757d;
 }
 
+#page-3{
+  margin-bottom: 0;
+}
+
 .pagination {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -12957,8 +12961,11 @@ h5,
   }
 }
 
+
+
 .project .overlay {
   position: absolute;
+  overflow: hidden;
   top: 0;
   left: 0;
   right: 0;
@@ -12976,7 +12983,17 @@ h5,
 
 @media (max-width: 767.98px) {
   .project .overlay {
-    opacity: 0.2;
+    opacity: 0.8;
+    overflow: hidden;
+  }
+  .project .overlay {
+    overflow: hidden;
+  }
+  .project-container{
+    margin-bottom: 1rem;
+  }
+  .project-container:last-of-type{
+    margin-bottom: -5rem;
   }
 }
 
